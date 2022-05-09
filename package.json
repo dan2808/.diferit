@@ -4,25 +4,26 @@
   "description": "A Threejs Boilerplate to aid in quick prototyping",
   "scripts": {
     "start": "node app.js",
+    "watch": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sean-Bradley/Threejs-Boilerplate.git"
-  },
+
   "keywords": [
     "threejs",
     "boilerplate",
     "threejs boilerplate"
   ],
-  "author": "Sean Bradley",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sean-Bradley/Threejs-Boilerplate/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Sean-Bradley/Threejs-Boilerplate#readme",
+  "homepage": "",
   "dependencies": {
     "express": "^4.17.1",
     "three": "^0.137.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }

@@ -2,14 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Three.js Tutorials by Sean Bradley : https://sbcode.net/threejs/</title>
+        <title>.diferit</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <style>
             body {
                 overflow: hidden;
                 margin: 0px;
+                background: rgb(1, 1, 1);
             }
-        </style>
+        </style> -->
 
         <!-- Import maps polyfill -->
         <!-- Remove this when import maps will be widely supported -->
@@ -28,6 +30,15 @@
     </head>
 
     <body>
-        <script type="module" src="client.js"></script>
+        
+        <div id="canvas">
+            <script type="module" src="client.js"></script>
+        </div>
+        
+        <div id="buttons">
+            <p><button type="route" class="button">Produse</button></p>
+            <p><button type="route" class="button">Despre Noi</button></p>
+        </div>
+        
     </body>
 </html>
